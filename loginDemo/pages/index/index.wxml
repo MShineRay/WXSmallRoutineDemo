@@ -1,0 +1,22 @@
+
+<!--index.wxml-->
+
+<!--<view class="btn-area">
+  <navigator url="navigate?title=navigate" hover-class="navigator-hover">跳转到新页面</navigator>
+  <navigator url="redirect?title=redirect" open-type="redirect" hover-class="other-navigator-hover">在当前页打开</navigator>
+  <navigator url="index" open-type="switchTab" hover-class="other-navigator-hover">切换 Tab</navigator>
+</view>-->
+<view class="container">
+    <input id="loginName" class="logininfo" placeholder="请输入用户名/手机号" focus="true"
+    bindinput="loginNameInput" />
+    <input id="loginPwd" class="logininfo" placeholder="请输入密码"
+    bindinput="loginPwdInput" password/>
+    <button bindtap="login" class="loginbtn" type="primary">登录</button>
+    <text class="forgetpwd">忘记密码</text>
+    <text class="register">注册账号</text>
+    <view>{{tip}}</view>
+  <!--footer-->
+  <view class="footer">
+    footer
+  </view>
+</view>

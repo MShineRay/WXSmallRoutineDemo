@@ -1,0 +1,4 @@
+/**app.wxss common stylesheet**/
+.container {
+  height: 100%;
+} 

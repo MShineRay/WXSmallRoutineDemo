@@ -1,0 +1,42 @@
+/**login.wxss**/
+
+.logininfo {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin: 15px 15px 0px 15px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.loginbtn {
+  margin: 15px;
+  color: #fff;
+}
+
+.forgetpwd {
+  display: inline-block;
+  margin-left: 15px;
+  color: #0090e3;
+}
+
+.register {
+  float: right;
+  margin-right: 15px;
+  color: #0090e3;
+}
+
+.footer{
+    clear: both;
+    min-width: 320px;
+    max-width: 650px;
+    margin: 0 auto;
+    height: 55px;
+    line-height: 55px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background-color: rgba(102,102,102,0.8);
+    z-index: 1001;
+    filter: alpha(opacity=40);
+}

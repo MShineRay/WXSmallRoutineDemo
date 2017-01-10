@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f58e34",
+    "navigationBarTitleText": "登录",
+    "navigationBarTextStyle":"#fff"
+  }
+}
